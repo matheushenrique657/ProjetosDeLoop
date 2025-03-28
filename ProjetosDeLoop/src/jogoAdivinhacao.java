@@ -12,9 +12,9 @@ public class jogoAdivinhacao {
         numeroInput = sc.nextInt();
 
         if (numeroInput > numeroResposta) {
-            System.out.println("Tente um número mais baixo: ");
+            System.out.print("Tente um número mais baixo: ");
         } else if (numeroInput < numeroResposta) {
-            System.out.println("Tente um número mais alto: ");
+            System.out.print("Tente um número mais alto: ");
         }
         }
         System.out.println("Numero Correto!");
